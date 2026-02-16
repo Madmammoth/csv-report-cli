@@ -18,15 +18,15 @@ def unemployment_changed(rows: list[dict]]) -> list[dict]:
 Готово, отчёт можно использовать в скрипте.  
 Важно! Подразумевается одинаковое именование названия отчёта и соответствующей функции с разницей только в разделителе: для наименования отчёта "-", для функции "_" (см. пример выше).
 ### Примеры запуска
-Два файла
+Два файла  
 ![CLI example](screenshots/successful_run_both.png)  
-Только первый файл
+Только первый файл  
 ![CLI example](screenshots/successful_run_only_1.png)  
-Только второй файл
+Только второй файл  
 ![CLI example](screenshots/successful_run_only_2.png)  
-Без аргументов
+Без аргументов  
 ![CLI example](screenshots/unsuccessful_run_without_args.png)  
-Неправильное название файла
+Неправильное название файла  
 ![CLI example](screenshots/unsuccessful_run_unknown_file.png)  
-Неправильное название отчёта
+Неправильное название отчёта  
 ![CLI example](screenshots/unsuccessful_run_invalid_report.png)  
